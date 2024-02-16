@@ -1,0 +1,34 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "requireConfigFile": false,
+    "ecmaVersion": 2022,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["@babel", "import"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "rules": {
+    "import/no-unresolved": "off",
+    "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/export": "off",
+    "no-unused-vars": "off",
+    // "quotes": ["error", "single"],
+    "import/no-named-as-default": "off",
+    "import/namespace": "off",
+    "import/default": "off",
+    "import/no-named-as-default-member": "off"
+  }
+}
