@@ -25,7 +25,9 @@ module.exports = (_env, argv) => {
     devtool: isDev && 'cheap-module-source-map',
     devServer: {
       compress: true,
-      historyApiFallback: true,
+      historyApiFallback: {
+        disableDotRule: true,
+      },
       open: true,
       port: 3000,
     },

@@ -27,7 +27,7 @@ root.render(
     <ThemeProvider>
       <TableProvider>
         <Layout>
-          <RouterProvider router={router} />
+          <PlateRecognition />
         </Layout>
       </TableProvider>
     </ThemeProvider>
