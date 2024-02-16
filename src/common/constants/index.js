@@ -1,5 +1,6 @@
-import testImg from '@/features/webcams/components/Tables/TableResults/TestImg.png';
 import ArrowSortIcon from '@/assets/images/cars/ArrowSortIcon';
+
+const testImg = 'https://i.ibb.co/QMjR69x/TestImg.png';
 
 export const APP_THEME = 'app-theme';
 export const TABLE_DATA = [

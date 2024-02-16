@@ -23,10 +23,11 @@ import VideoPlaceholderIcon from '@/assets/images/cars/VideoPlaceholderIcon';
 import OptionButton from '../OptionButton';
 import ExpandIcon from '@/assets/images/cars/ExpandIcon';
 import SettingIcon from '@/assets/images/cars/SettingIcon';
-import testImg3 from './TestImg3.png';
 import { useTableContext } from '@/context/TableContext';
 import SettingDropdown from '../SettingDropdown';
 import { useGetCurrentTime } from '@/common/hooks/useGetCurrentTime';
+
+const testImg3 = 'https://i.ibb.co/6WtSsxw/TestImg3.png';
 
 const listInfoValue = [
   {

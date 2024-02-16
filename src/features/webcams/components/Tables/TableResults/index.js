@@ -12,9 +12,11 @@ import {
   TableCellText,
   TableTr,
 } from './styles';
-import testImg2 from './TestImg2.png';
+
 import { TABLE_DATA } from '@/common/constants';
 import { useTableContext } from '@/context/TableContext';
+
+const testImg2 = 'https://i.ibb.co/rG6s6J5/TestImg2.png';
 
 const TableResults = () => {
   const { activeRowId, toggleRow, searchValue } = useTableContext();
